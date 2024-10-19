@@ -29,7 +29,7 @@ function App() {
         
         
        
-       <div className="sticky bottom-2   ">
+       <div className="sticky bottom-4   ">
        <FooterCard />
        </div>
      
