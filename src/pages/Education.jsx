@@ -32,7 +32,7 @@ function Education() {
             <div className="w-full px-5">
               <h3 className="font-[450] text-lg ">{event.title}</h3>
               <span className="text-gray-500  ">{event.date}</span>
-              <p className="mt-3 text-sm ">{event.description}</p>
+              <p className="mt-3 text-xs md:text-sm ">{event.description}</p>
             </div>
           </div>
 
