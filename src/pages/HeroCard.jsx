@@ -7,7 +7,7 @@ function HeroCard() {
 
 <div className="flex flex-col-reverse lg:flex-row justify-evenly items-center w-screen">
   <div className="text-center md:text-left mt-44">
-    <div className="flex items-center gap-4 translate-x-7 md:translate-x-0 md:mx-[0px] justify-center  w-fit ">
+    <div className="flex items-center gap-4 translate-x-8 md:translate-x-0 md:mx-[0px] justify-center  w-fit ">
       <h1 className="text-[22px] md:text-5xl lg:text-5xl font-bold">Hey, I am </h1>
       <WordRotate className="text-[22px]  md:text-5xl lg:text-5xl font-bold text-black dark:text-white" words={["Afrith Hussain", "Frontend Developer"]} />
     </div>
