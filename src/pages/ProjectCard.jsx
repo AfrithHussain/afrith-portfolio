@@ -17,19 +17,21 @@ function ProjectCard() {
         "flex h-[500px] mx-auto w-[60%] md:w-[50%] mt-10 flex-col gap-10 lg:h-[250px] lg:flex-row "
       }
     >
-      <MagicCard
+     <a href="https://codekaro-webpage-lr9j.vercel.app/"> <MagicCard
         className="cursor-pointer flex-col items-center justify-center shadow-2xl whitespace-nowrap bg-neutral-400 text-4xl text-white"
         gradientColor={theme === "dark" ? "#262626" : "#D9D9D955"}
       >
-        Project 1
-      </MagicCard>
+         Online Course
+      </MagicCard></a>
+      <a href="https://insta-clone-spa.vercel.app/">
       <MagicCard
         className="cursor-pointer flex-col items-center justify-center shadow-2xl whitespace-nowrap text-4xl bg-neutral-400 text-white"
         gradientColor={theme === "dark" ? "#262626" : "#D9D9D955"}
       >
-        Project 2
+        Insta clone-spa
         
       </MagicCard>
+      </a>
     </div>
             </div>
 
@@ -40,12 +42,14 @@ function ProjectCard() {
         "flex h-[500px] mx-auto w-[60%] md:w-[50%] mt-10 flex-col gap-10 lg:h-[250px] lg:flex-row "
       }
     >
+      <a href="https://movie-app-six-virid-69.vercel.app/">
       <MagicCard
         className="cursor-pointer flex-col items-center justify-center shadow-2xl whitespace-nowrap bg-neutral-400 text-4xl text-white"
         gradientColor={theme === "dark" ? "#262626" : "#D9D9D955"}
       >
-        Project 3
+        Movie App
       </MagicCard>
+      </a>
       <MagicCard
         className="cursor-pointer flex-col items-center justify-center shadow-2xl whitespace-nowrap text-4xl bg-neutral-400 text-white"
         gradientColor={theme === "dark" ? "#262626" : "#D9D9D955"}
