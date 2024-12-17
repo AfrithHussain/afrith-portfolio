@@ -233,10 +233,10 @@ function ContactmeCard() {
 
               {/* Submit Button */}
               <div className="mt-6 flex justify-center lg:justify-start">
-                <ShinyButton className="bg-neutral-600 text-white px-6 py-2 rounded-md">
-                  <button type="submit" className="">
+                <ShinyButton type='submit' className="bg-neutral-600 text-white px-6 py-2 rounded-md">
+                 
                     Contact Me
-                  </button>
+                  
                 </ShinyButton>
               </div>
             </form>
