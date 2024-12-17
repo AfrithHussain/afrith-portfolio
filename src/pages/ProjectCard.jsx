@@ -12,9 +12,9 @@ function ProjectCard() {
             <div className="">
             <div
       className="flex-col flex items-center md:flex-row gap-10 justify-center mt-10" >
-     <a href="https://codekaro-webpage-lr9j.vercel.app/" >
+     <a href="https://voguevibe-afrithhussains-projects.vercel.app/" >
         <div className="w-[230px] h-[180px]  rounded-md text-xl  text-center bg-neutral-400  flex items-center justify-center">
-          Online Course
+          E-commerce Website
         </div>
       </a>
       <a href="https://insta-clone-spa.vercel.app/">
@@ -41,10 +41,10 @@ function ProjectCard() {
         </div>
       
       </a>
-      <a href="https://movie-app-six-virid-69.vercel.app/" >
+      <a href="https://codekaro-webpage-lr9j.vercel.app/" >
      
       <div className="w-[230px] h-[180px]  rounded-md text-xl  text-center bg-neutral-400  flex items-center justify-center">
-          Project 4
+          Online Course
         </div>
       
       </a>
