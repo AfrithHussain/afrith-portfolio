@@ -85,10 +85,10 @@ function Navbar() {
           
           <div className="">
           <div className="flex flex-col gap-16 text-center mt-32 text-xl  justify-center">
-          <a href="">About</a> 
-          <a href="">Skills</a>
-          <a href="">Education</a>
-          <a href="">Projects</a>
+          <a href="#about">About</a> 
+          <a href="#skill">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#project">Projects</a>
         </div>
           </div>
         </SheetHeader>
