@@ -17,9 +17,9 @@ function ProjectCard() {
           E-commerce Website
         </div>
       </a>
-      <a href="https://insta-clone-spa.vercel.app/">
+      <a href="https://afrith-blog-website-fo3o45k6a-afrithhussains-projects.vercel.app/">
       <div className="w-[230px] h-[180px]  rounded-md text-xl  text-center bg-neutral-400  flex items-center justify-center">
-          Insta Clone-Spa
+          Blog Website
         </div>
         
        
@@ -41,10 +41,10 @@ function ProjectCard() {
         </div>
       
       </a>
-      <a href="https://codekaro-webpage-lr9j.vercel.app/" >
+      <a href="https://elbrit-assignment-afrith.netlify.app/" >
      
       <div className="w-[230px] h-[180px]  rounded-md text-xl  text-center bg-neutral-400  flex items-center justify-center">
-          Online Course
+           Medical product website
         </div>
       
       </a>
@@ -53,6 +53,7 @@ function ProjectCard() {
             </div>
         </div>
     </div>
+    
   )
 }
 
