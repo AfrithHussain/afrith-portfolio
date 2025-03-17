@@ -30,6 +30,18 @@ function SkillCard() {
       const timer = setTimeout(() => setProgressReact(85), 2000)
       return () => clearTimeout(timer)
     }, [])
+
+    const [progressTs, setProgressTs] = React.useState(0);
+    React.useEffect(() => {
+      const timer = setTimeout(() => setProgressTs(70), 2000)
+      return () => clearTimeout(timer)
+    }, [])
+    const [progressNext, setProgressNext] = React.useState(0);
+    React.useEffect(() => {
+      const timer = setTimeout(() => setProgressNext(60), 2000)
+      return () => clearTimeout(timer)
+    }, [])
+    
   return (
     <div id="skill">
         <div className="mt-32">
@@ -56,11 +68,24 @@ function SkillCard() {
         
         </div>
         <div className="flex justify-center gap-6 mt-16 items-center">
-            <h1 className="text-xl w-[120px]">React</h1>
-        <Progress value={progressReact} className="w-[40%]" />
-        <p>85%</p>
+            <h1 className="text-xl w-[130px]">Typscript</h1>
+        <Progress value={progressTs} className="w-[40%]" />
+        <p>70%</p>
         
         </div>
+        <div className="flex justify-center gap-6 mt-16 items-center">
+            <h1 className="text-xl w-[120px]">React js</h1>
+        <Progress value={progressReact} className="w-[40%]" />
+        <p>85%</p>
+        </div>
+        <div className="flex justify-center gap-6 mt-16 items-center">
+            <h1 className="text-xl w-[130px]">Next js</h1>
+        <Progress value={progressNext} className="w-[40%]" />
+        <p>60%</p>
+        
+        </div>
+        
+        
         </div>
 
        
