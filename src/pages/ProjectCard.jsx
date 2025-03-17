@@ -38,7 +38,7 @@ function ProjectCard() {
         {projects.map((project, index) => (
           <a key={index} href={project.link} target="_blank" rel="noopener noreferrer">
             <div className="w-[280px] h-[220px] rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
-              <img src={project.image} alt={project.title} className="w-full h-[180px] object-contain" />
+              <img src={project.image} alt={project.title} className="w-full h-[250px] object-contain" />
             </div>
             <h2 className="text-xl text-neutral-800 text-center py-3">{project.title}</h2>
           </a>
